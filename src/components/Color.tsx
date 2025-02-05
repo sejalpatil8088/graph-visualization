@@ -1,3 +1,4 @@
+
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { updateNode } from "../redux/graphSlice";
@@ -16,10 +17,7 @@ const Color = () => {
       data: { ...node.data, color: event.target.value } 
     }));
   };
-//   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-//     if (!node) return;
-//     dispatch(updateNode({ id: "node-1", data: { ...node.data, color: event.target.value } }));
-//   };
+
 
   return (
     <input type="color" onChange={handleChange} />

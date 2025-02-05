@@ -1,4 +1,3 @@
-
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { updateNode } from "../redux/graphSlice";
@@ -27,6 +26,5 @@ const handleFontSizeChange = (event: React.ChangeEvent<HTMLInputElement>) => {
 };
 
 export default FontSizeControl;
-
 
 
