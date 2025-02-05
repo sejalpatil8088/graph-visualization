@@ -30,20 +30,3 @@ export default Color;
 
 
 
-// import React from "react";
-// import { useDispatch } from "react-redux";
-// import { updateNode } from "../redux/graphSlice";
-
-// const Color = () => {
-//   const dispatch = useDispatch();
-
-//   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-//     dispatch(updateNode({ id: "node-1", data: { color: event.target.value } }));
-//   };
-
-//   return (
-//     <input type="color" onChange={handleChange} />
-//   );
-// };
-
-// export default Color;
